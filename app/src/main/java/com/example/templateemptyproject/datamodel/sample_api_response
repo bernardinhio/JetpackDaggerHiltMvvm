@@ -1,0 +1,150 @@
+// 20230227122842
+// https://www.lotto24.de/public/v1/drawinfo/aggregated/6aus49,eurojackpot
+
+[
+  {
+    "lottery": "6aus49",
+    "lastDraw": {
+      "drawIdentifier": "2023-02-25",
+      "lottery": "6aus49",
+      "drawDate": "2023-02-25T19:25:00+01:00",
+      "drawDateUtc": "2023-02-25T18:25:00Z",
+      "drawResult": {
+        "numbers": [
+          5,
+          12,
+          23,
+          26,
+          33,
+          48
+        ],
+        "superNumber": 4
+      },
+      "quotas": {
+        "WC_1": "15541629.40",
+        "WC_2": "1244148.60",
+        "WC_3": "7987.10",
+        "WC_4": "3451.30",
+        "WC_5": "152.70",
+        "WC_6": "40.30",
+        "WC_7": "18.10",
+        "WC_8": "9.70",
+        "WC_9": "6.00"
+      },
+      "nonMonetaryQuotas": {
+
+      },
+      "winners": {
+        "WC_1": 0,
+        "WC_2": 2,
+        "WC_3": 108,
+        "WC_4": 745,
+        "WC_5": 4670,
+        "WC_6": 41911,
+        "WC_7": 79659,
+        "WC_8": 696437,
+        "WC_9": 580023
+      },
+      "totalStake": "47220674.40",
+      "currency": "EUR"
+    },
+    "nextDraw": {
+      "drawIdentifier": "2023-03-01",
+      "lottery": "6aus49",
+      "drawDate": "2023-03-01T18:25:00+01:00",
+      "drawDateUtc": "2023-03-01T17:25:00Z",
+      "timeZone": "Europe/Berlin",
+      "cutofftime": "2023-03-01T17:45:00+01:00",
+      "jackpot": {
+        "drawIdentifier": "2023-03-01",
+        "lottery": "6aus49",
+        "drawDate": "2023-03-01T18:25:00+01:00",
+        "currency": "EUR",
+        "jackpots": {
+          "WC_1": "17000000.00",
+          "WC_2": "1000000.00"
+        },
+        "jackpotSupported": true
+      }
+    },
+    "draws": [
+
+    ]
+  },
+  {
+    "lottery": "eurojackpot",
+    "lastDraw": {
+      "drawIdentifier": "2023-02-24",
+      "lottery": "eurojackpot",
+      "drawDate": "2023-02-24T20:00:00+02:00",
+      "drawDateUtc": "2023-02-24T18:00:00Z",
+      "drawResult": {
+        "numbers": [
+          1,
+          5,
+          12,
+          18,
+          20
+        ],
+        "euroNumbers": [
+          6,
+          7
+        ]
+      },
+      "quotas": {
+        "WC_1": "0.00",
+        "WC_2": "198576.70",
+        "WC_3": "99544.90",
+        "WC_4": "2897.60",
+        "WC_5": "184.30",
+        "WC_6": "127.90",
+        "WC_7": "76.90",
+        "WC_8": "21.80",
+        "WC_9": "14.80",
+        "WC_10": "14.40",
+        "WC_11": "12.20",
+        "WC_12": "8.30"
+      },
+      "nonMonetaryQuotas": {
+
+      },
+      "winners": {
+        "WC_1": 0,
+        "WC_2": 8,
+        "WC_3": 9,
+        "WC_4": 51,
+        "WC_5": 1002,
+        "WC_6": 1588,
+        "WC_7": 1920,
+        "WC_8": 21585,
+        "WC_9": 35339,
+        "WC_10": 69091,
+        "WC_11": 101755,
+        "WC_12": 447393
+      },
+      "totalStake": "36944520.00",
+      "currency": "EUR"
+    },
+    "nextDraw": {
+      "drawIdentifier": "2023-02-28",
+      "lottery": "eurojackpot",
+      "drawDate": "2023-02-28T20:00:00+02:00",
+      "drawDateUtc": "2023-02-28T18:00:00Z",
+      "timeZone": "Europe/Helsinki",
+      "cutofftime": "2023-02-28T19:35:00+02:00",
+      "jackpot": {
+        "drawIdentifier": "2023-02-28",
+        "lottery": "eurojackpot",
+        "drawDate": "2023-02-28T20:00:00+02:00",
+        "currency": "EUR",
+        "jackpots": {
+          "WC_1": "13000000.00"
+        },
+        "jackpotSupported": true
+      }
+    },
+    "draws": [
+
+    ]
+  }
+]
