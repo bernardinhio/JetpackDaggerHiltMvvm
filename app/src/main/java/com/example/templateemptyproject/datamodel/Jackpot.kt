@@ -3,7 +3,7 @@ package com.example.templateemptyproject.datamodel
 import com.example.templateemptyproject.datamodel.Jackpots
 import com.google.gson.annotations.SerializedName
 
-class Jackpot(
+data class Jackpot(
     val jackpotSupported: Boolean? = null,
     @SerializedName("jackpots")
     val allJackpots: Jackpots? = null,

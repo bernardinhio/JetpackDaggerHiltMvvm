@@ -1,6 +1,6 @@
 package com.example.templateemptyproject.datamodel
 
-class Quotas(
+data class Quotas(
     val WC_1: String? = null,
     val WC_2: String? = null,
     val WC_3: String? = null,
