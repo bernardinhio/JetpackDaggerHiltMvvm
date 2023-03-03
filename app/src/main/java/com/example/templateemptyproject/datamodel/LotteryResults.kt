@@ -1,8 +1,5 @@
 package com.example.templateemptyproject.datamodel
 
-import com.example.templateemptyproject.datamodel.Winners
-import com.example.templateemptyproject.datamodel.Quotas
-
 data class LotteryResults(
     // Both NextDraw and LastDraw
     val drawIdentifier: String? = null, // Both: ex: 2023-02-25

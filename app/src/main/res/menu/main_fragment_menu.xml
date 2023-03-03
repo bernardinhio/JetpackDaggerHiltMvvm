@@ -6,8 +6,16 @@
         android:title="Reset"
         app:showAsAction="always"/>
 
-    <item android:id="@+id/fetchData"
-        android:title="Fetch"
+    <item android:id="@+id/fetchTwoLottries"
+        android:title="Fetch 2 Lotteries"
         app:showAsAction="always"/>
+
+    <item android:id="@+id/fetchFourLottries"
+        android:title="Fetch 4 Lotteries"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/fetchThreeLottries"
+        android:title="Fetch 3 Lotteries"
+        app:showAsAction="ifRoom"/>
 
 </menu>

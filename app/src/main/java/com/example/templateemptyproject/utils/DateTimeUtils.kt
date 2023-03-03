@@ -3,7 +3,7 @@ package com.example.templateemptyproject.utils
 import java.text.SimpleDateFormat
 import java.util.*
 
-//"2023-03-03T18:00:00Z"
+// Ex: "2023-03-03T18:00:00Z"
 const val LONG_DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss'Z'"
 const val SHORT_DATE_FORMAT = "dd.MM.yyyy"
 const val DAY_FORMAT = "MM"
