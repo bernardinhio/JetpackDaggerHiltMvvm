@@ -1,4 +1,4 @@
-package com.example.templateemptyproject
+package com.example.templateemptyproject.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +7,7 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.example.templateemptyproject.R
 import com.example.templateemptyproject.databinding.ItemlistLotteryBinding
 import com.example.templateemptyproject.datamodel.LotteryData
 import com.example.templateemptyproject.utils.DAY_FORMAT
@@ -119,9 +120,15 @@ class LotteriesAdapter(
 
         private fun handleNextDrawDateTextColor(viewBinding: ItemlistLotteryBinding, data: LotteryData) {
             when(data.name){
-                "6aus49" -> viewBinding.tvDateNextDraw?.setTextColor(ContextCompat.getColor(viewBinding.root.context, R.color.red_next_draw))
-                "eurojackpot" -> viewBinding.tvDateNextDraw?.setTextColor(ContextCompat.getColor(viewBinding.root.context, R.color.yellow_next_draw))
-                else -> viewBinding.tvDateNextDraw?.setTextColor(ContextCompat.getColor(viewBinding.root.context, R.color.white))
+                "6aus49" -> viewBinding.tvDateNextDraw?.setTextColor(ContextCompat.getColor(viewBinding.root.context,
+                    R.color.red_next_draw
+                ))
+                "eurojackpot" -> viewBinding.tvDateNextDraw?.setTextColor(ContextCompat.getColor(viewBinding.root.context,
+                    R.color.yellow_next_draw
+                ))
+                else -> viewBinding.tvDateNextDraw?.setTextColor(ContextCompat.getColor(viewBinding.root.context,
+                    R.color.white
+                ))
             }
         }
 
@@ -151,9 +158,15 @@ class LotteriesAdapter(
 
         private fun handleBannerNextDrawTextColor(viewBinding: ItemlistLotteryBinding, data: LotteryData) {
             when(data.name){
-                "6aus49" -> viewBinding.tvBannerDateNextDraw?.setTextColor(ContextCompat.getColor(viewBinding.root.context, R.color.red_next_draw))
-                "eurojackpot" -> viewBinding.tvBannerDateNextDraw?.setTextColor(ContextCompat.getColor(viewBinding.root.context, R.color.yellow_next_draw))
-                else -> viewBinding.tvBannerDateNextDraw?.setTextColor(ContextCompat.getColor(viewBinding.root.context, R.color.white))
+                "6aus49" -> viewBinding.tvBannerDateNextDraw?.setTextColor(ContextCompat.getColor(viewBinding.root.context,
+                    R.color.red_next_draw
+                ))
+                "eurojackpot" -> viewBinding.tvBannerDateNextDraw?.setTextColor(ContextCompat.getColor(viewBinding.root.context,
+                    R.color.yellow_next_draw
+                ))
+                else -> viewBinding.tvBannerDateNextDraw?.setTextColor(ContextCompat.getColor(viewBinding.root.context,
+                    R.color.white
+                ))
             }
         }
 

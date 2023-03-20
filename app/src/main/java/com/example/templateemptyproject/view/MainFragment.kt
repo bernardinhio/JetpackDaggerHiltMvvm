@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.templateemptyproject.LotteriesAdapter
+import com.example.templateemptyproject.adapter.LotteriesAdapter
 import com.example.templateemptyproject.R
 import com.example.templateemptyproject.databinding.FragmentMainBinding
 import com.example.templateemptyproject.datamodel.LotteryData
